@@ -1,3 +1,18 @@
+## how to run this program
+### run with ide
+- windows --> visit https://visualstudio.microsoft.com/downloads/ to download Visual Studio
+- macos --> visit https://www.jetbrains.com/rider/download to download Rider
+- open this project with IDE, wait dependencies installed automatically and run it
+### run without ide
+1. vist [.net web](https://dotnet.microsoft.com/en-us/download) to dwonload and install .net 8.
+2. clone this project
+3. cd techdemo
+4. dotnet restore   # restore the dependencies
+5. dotnet build     # conpile the project
+6. dotnet run       # run the project
+7. vist http://localhost:5072
+
+
 ## Comparison: C# vs Node.js
 
 | Feature               | C#                                     | JavaScript                                 |
